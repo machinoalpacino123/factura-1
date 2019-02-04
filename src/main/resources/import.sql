@@ -53,5 +53,6 @@ INSERT INTO proveedores (empresa, nombre, apellido, email, create_at) VALUES ('L
 INSERT INTO proveedores (empresa, nombre, apellido, email, create_at) VALUES ('Microsoft', 'Bill', 'Gates', 'bill@microsoft.com', '2012-12-12');
 INSERT INTO proveedores (empresa, nombre, apellido, email, create_at) VALUES ('Nintendo', 'Hashiko', 'Norimaki', 'mariobros@nintendo.jp', '2010-01-18');
 
-
+INSERT INTO proveedores (empresa, nombre, apellido, email, create_at) VALUES ('jojojo', 'Hashiko', 'Norimaki', 'mariobros@nintendo.jp', '2010-01-18');
+ INSERT INTO proveedores (empresa, nombre, apellido, email, create_at) VALUES ('jejeje', 'Hashiko', 'Norimaki', 'mariobros@nintendo.jp', '2010-01-18');
 
