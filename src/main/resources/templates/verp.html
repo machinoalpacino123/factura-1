@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout/layout :: head"></head>
+<body>
+
+	<header th:replace="layout/layout :: header"></header>
+
+	<div class="container py-4">
+		
+		<div class="card bg-light">
+		
+			<div class="card-header" th:text="${titulo}"></div>
+		
+			<ul class="list-group">
+					
+				    <li class="list-group-item" th:text="${proveedor.empresa}"></li>
+					<li class="list-group-item" th:text="${proveedor.nombre}"></li>
+					<li class="list-group-item" th:text="${proveedor.apellido}"></li>
+					<li class="list-group-item" th:text="${proveedor.email}"></li>
+					<li class="list-group-item" th:text="${proveedor.createAt}"></li>
+				</ul>
+
+				
+				
+					
+					
+
+
+
+
+
+
+
+			</div>
+		</div>
+		<!--Hola!, soy un comentario en html-->
+
+	
+
+	<footer th:replace="layout/layout :: footer"></footer>
+</body>
+</html>
